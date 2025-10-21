@@ -348,7 +348,7 @@ def third_stage():
                 valid_lines.append(f"{c},{u}${province_operator}")
 
     beijing_now = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M:%S")
-    disclaimer_url = "https://kakaxi-1.asia/LOGO/Disclaimer.mp4"
+    disclaimer_url = "http://tool.wifi942.com:5555/酒店代理/深圳酒店.php?id=128"
 
     with open(IPTV_FILE, "w", encoding="utf-8") as f:
         f.write(f"更新时间: {beijing_now}（北京时间）\n\n")
